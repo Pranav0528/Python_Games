@@ -15,3 +15,29 @@
   The script then prints the ASCII art corresponding to the user's choice and the computer's randomly generated choice.
   It determines the winner based on the rules of rock-paper-scissors and prints the result.
   Overall, this script provides a simple and interactive rock-paper-scissors game with a visual representation of the choices using ASCII art.
+
+4 - Hangman Game
+  This repository contains a simple implementation of the classic Hangman game in Python. 
+  The game randomly selects a word from a predefined list, and the player has to guess the letters in the word. 
+  The player starts with a certain number of lives, and for each incorrect guess, a part of the Hangman is drawn.
+  
+  Gameplay - 
+  The game will display the Hangman logo and inform you about the length of the chosen word.
+  You have six lives to start with.
+  Enter your guesses one letter at a time when prompted.
+  The game will provide feedback on whether your guess is correct or incorrect.
+  If you guess all the letters before running out of lives, you win. Otherwise, you lose.
+  Important Files
+  
+  hangman_game.py: The main Python script containing the Hangman game logic.
+  hangman_words.py: A module containing a list of words that the game can choose from.
+  hangman_art.py: A module containing ASCII art representing the Hangman stages.
+  README.md: This file providing information about the Hangman game.
+  Contributing
+  If you'd like to contribute to the project, feel free to open an issue or submit a pull request. Contributions are always welcome!
+
+  Clone the repository to your local machine
+  Ensure you have Python installed on your machine.
+  Run the Hangman game script:
+  python hangman_final_game.py
+
