@@ -2,6 +2,41 @@ Blackjack Game
 Overview
 This repository contains a simple implementation of a text-based Blackjack game in Python. The game uses the console for interaction and includes basic functionalities such as dealing cards, calculating scores, and determining the winner.
 
+*** Game Flow *** 
+
+1. Start:
+  User initiates the game.
+
+2. Initialize Hands:
+  Two players (Player 1 and Player 2) are initialized with two cards each.
+
+3. Player 1's Turn:
+  Player 1 is prompted to decide whether to hit or stand.
+  If hit, a new card is added to Player 1's hand.
+  If stand or if the total score is 21, the turn ends.
+
+4. Player 2's Turn:
+  Player 2 is prompted to decide whether to hit or stand.
+  If hit, a new card is added to Player 2's hand.
+  If stand or if the total score is 21, the turn ends.
+
+5. Result Calculation:
+  Final hands and total scores for both players are displayed.
+
+6. Compare and Display Winner:
+  The scores of both players are compared.
+  The winner or a draw is displayed based on the comparison.
+
+7. Game Loop Decision:
+  User is asked if they want to play another round.
+  If 'y', go back to step 2 (Initialize Hands).
+  If 'n', end the game.
+
+8. End:
+  Game ends.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Files
 blackJack.py: The main script containing the Blackjack game logic.
 art.py: A separate file containing ASCII art for the game's logo.
