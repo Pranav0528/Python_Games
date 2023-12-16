@@ -41,3 +41,9 @@
   Run the Hangman game script:
   python hangman_final_game.py
 
+5 - BlackJack Game
+  (1). Opponent - Computer
+      Simple implementation of a text-based Blackjack game in Python. 
+      The game uses the console for interaction and includes basic functionalities such as dealing cards, calculating scores, and determining the winner.
+      For Detailed information created a README file inside the BlackJack folder
+
